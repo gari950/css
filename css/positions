@@ -1,0 +1,58 @@
+.top{
+  background-color: blue;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  left:200px;
+  top:0;
+}
+.container{
+  background-color: pink;
+  height: 400px;
+  width: 600px;
+  top: 400px;
+}
+.mid{
+  background-color: green;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top:0;
+}
+.low{
+  background-color: yellow;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  left: 400px;
+  top: 0px;
+}
+.m{
+  height: 400px;
+  width: 900px;
+  position: absolute;
+  top:250px;
+  right:200px;
+}
+.c1{
+  width: 250px;
+  position:absolute;
+  left:300px;
+  top:200px;
+}
+.c2{
+  width: 250px;
+  position: absolute;
+  top:30px;
+  left:800px;
+button shadow{
+-webkit-box-shadow: 1px 1px 20px 0 #000000;
+-moz-box-shadow: 1px 1px 20px 0 #000000;
+box-shadow: 1px 1px 20px 0 #000000;
+text-shadow: 1px 1px 20px #000000;
+}
+button arc{
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+}
